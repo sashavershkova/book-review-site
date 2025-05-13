@@ -1,0 +1,37 @@
+
+body {
+    background-color: rgb(255, 247, 209);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer, header {
+    background-color: rgb(228, 224, 192);
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-style: solid;
+}
+
+.book-title {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:rgb(42, 86, 6);
+    font-family: 'MyCustomFont';
+}
+
+a:hover {
+    color: rgb(206, 24, 136);
+
+}
+
+li {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../fonts/Playwrite_DK_Loopet/PlaywriteDKLoopet-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
